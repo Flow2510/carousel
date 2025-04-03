@@ -1,0 +1,80 @@
+:root{
+    --background-color: rgb(0, 0, 0);
+    --background-button: rgb(100, 100, 100);
+    --background-active: rgb(255, 255, 255);
+    --background-p: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bouton_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.bouton_container{
+    display: flex;
+    width: fit-content;
+    position: relative;
+    justify-content: center;
+}
+
+.bouton{
+    background-color: var(--background-button);
+    height: 50px;
+    width: 50px;
+    border-radius: 9999px;
+    transition: width 1s ease, left 1s ease;
+}
+
+.bouton_4{
+    background-color: var(--background-active);
+    position: absolute;
+}
+
+p{
+    background-color: var(--background-p);
+}
+
+.carousel_section{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.text_container{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    padding: 1.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+}
+
+.text_2{
+    right: 1rem;
+    opacity: 0.9;
+    transform: scale(0.9);
+
+}
+
+.text_3{
+    left: 1rem;
+    opacity: 0.9;
+    transform: scale(0.9);
+}
